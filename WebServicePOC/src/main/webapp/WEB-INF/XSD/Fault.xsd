@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Fault" xmlns:tns="http://www.example.org/Fault" elementFormDefault="qualified">
+
+    <element name="Fault">
+    	<complexType>
+    		<sequence>
+    			<element name="successFlag" type="boolean" />
+    			<element name="type" type="string" />
+    			<element name="code" type="string" />
+    			<element name="message" type="string" />
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>
